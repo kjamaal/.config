@@ -1,0 +1,9 @@
+[submodule ".vim_runtime/sources_forked/vim-snippets"]
+	path = .vim_runtime/sources_forked/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule ".vim_runtime/sources_forked/LanguageClient-neovim"]
+	path = .vim_runtime/sources_forked/LanguageClient-neovim
+	url = https://github.com:autozimu/LanguageClient-neovim.git
+[submodule ".vim_runtime/sources_forked/supertab"]
+	path = .vim_runtime/sources_forked/supertab
+	url = https://github.com:ervandew/supertab.git
