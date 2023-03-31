@@ -7,3 +7,6 @@
 [submodule ".vim_runtime/sources_forked/supertab"]
 	path = .vim_runtime/sources_forked/supertab
 	url = https://github.com:ervandew/supertab.git
+[submodule ".vim_runtime/sources_forked/vim-flake8"]
+	path = .vim_runtime/sources_forked/vim-flake8
+	url = git@github.com:nvie/vim-flake8.git
