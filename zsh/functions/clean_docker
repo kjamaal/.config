@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+docker system prune -f
+docker ps -a -q | xargs docker container kill
+docker ps -a -q | xargs docker container rm
+docker rmi (docker images -f "dangling=true" -q)

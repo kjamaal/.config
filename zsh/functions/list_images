@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+aws ecr describe-images --repository-name $1 | jq '.imageDetails[].imageTags' -c | sort -r

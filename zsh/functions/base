@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+base() {
+  . ~/python-virtual-environments/venv_base/bin/activate
+}
+
+base "$@"

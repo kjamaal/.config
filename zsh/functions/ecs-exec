@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+ecs-exec() {
+  aws ecs execute-command --cluster "$3" --container "$2" --task "$(aws ecs list-tasks --service-name "$1" --cluster "$3" --query 'taskArns[0]' --output text)" --command /bin/bash --interactive
+}
